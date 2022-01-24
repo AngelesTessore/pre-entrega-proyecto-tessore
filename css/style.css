@@ -557,14 +557,20 @@ label[for=suscripcion] {
         font-size: 14px;
         padding-bottom: 80px;
     }
-    .galeria {
+    .galeria-mobile {
         width: 75%;
-        height: 350px;
-        justify-content: center;
+        /*height: 350px;*/
+        /*justify-content: center;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url('../images/index-mobile.jpg');
+        background-image: url('../images/index-mobile.jpg');*/
+    }
+    .galeria-mobile img {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: cover;
     }
     .carousel {
         display: none;
