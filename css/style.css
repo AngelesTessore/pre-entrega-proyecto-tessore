@@ -30,9 +30,12 @@ nav{
 }
 .custom-toggler.navbar-toggler {
     border-color: rgb(1, 20, 20);
+    color: transparent;
   }
 .navbar-dark .navbar-toggler-icon {
     background-image: url('../images/icono-menu.png');
+    width: 40px;
+    height: 40px;
 }
 ul {
     flex-wrap: wrap;
@@ -518,6 +521,9 @@ label[for=suscripcion] {
     header {
         justify-content: space-around;
     }
+    li.borde-inferior {
+        border-bottom: 1px solid rgb(54, 143, 150);
+    }
     nav ul li.no-show-list {
         display: none;
     }
@@ -773,6 +779,9 @@ label[for=suscripcion] {
      /* INDEX */
      header {
         justify-content: space-around;
+    }
+    li.borde-inferior {
+        border-bottom: 1px solid rgb(54, 143, 150);
     }
     nav ul li.no-show-list {
         display: none;
