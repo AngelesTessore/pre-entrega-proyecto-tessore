@@ -37,17 +37,20 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropdown-menu dropdown-menu-end custom-dropdown">
-                        <li>
+                        <li class="borde-inferior">
                             <a class="active" aria-current="page" href="index.html">Inicio</a>
                         </li>
-                        <li>
+                        <li class="borde-inferior">
                             <a href="sabores.html">Sabores</a>
                         </li>
-                        <li>
+                        <li class="borde-inferior">
                             <a href="productos.html">Productos</a>
                         </li>
-                        <li>
+                        <li class="borde-inferior">
                             <a href="novedades-promos.html">Novedades/Promos</a>
+                        </li>
+                        <li class="borde-inferior d-lg-none d-inline-flex">
+                            <a href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -80,24 +83,16 @@
         </div>
         <!-- Formulario - Bootstrap -->
         <form action="#">
-            <div class="mb-3">
-                <label for="nombre-apellido" class="form-label">Nombre y Apellido:</label><br>
-                <input type="text" class="form-control" id="nombre-apellido" name="nombreyapellido"
-                    placeholder="Escribe tu nombre"><br>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email:</label><br>
-                <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@gmail.com"><br>
-            </div>
-            <div class="mb-3">
-                <label for="tel" class="form-label">Teléfono:</label><br>
-                <input type="text" class="form-control" id="tel" name="tel" placeholder="Código de área sin 0 + Número sin el 15"><br>
-            </div>
-            <div class="mb-3">
-                <label for="mensaje" class="form-label">Consulta:</label><br>
-                <textarea class="form-control customize-textarea" name="consulta" id="consulta" cols="60" rows="6"
-                    placeholder="Dejanos tu mensaje"></textarea><br>
-            </div>
+            <label for="nombre-apellido">Nombre y Apellido:</label><br>
+            <input type="text" id="nombre-apellido" name="nombreyapellido" placeholder="Escribe tu nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com"><br>
+            <label for="tel">Teléfono:</label><br>
+            <input type="text" id="tel" name="tel"
+                placeholder="Código de área sin 0 + Número sin el 15"><br>
+            <label for="mensaje">Consulta:</label><br>
+            <textarea name="consulta" id="consulta" cols="60" rows="6"
+                placeholder="Dejanos tu mensaje"></textarea><br>
             <input type="submit" value="Enviar"><br>
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" id="suscripcion" name="aceptar">
