@@ -413,6 +413,7 @@ h2.subtitulo-sabores {
 
 /* HTML Novedades/Promos */
 #novedades-promos {
+    display: flex;
     width: 80%;
     margin: auto;
     flex-direction: column;
@@ -439,7 +440,7 @@ h2.subtitulo-sabores {
 }
 .promos p, .promos a {
     padding: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: #feebeb;
 }
 .promos a:link, .promos a:visited, .promos a:hover, .promos a:active {
@@ -571,6 +572,9 @@ label[for=suscripcion] {
         font-size: 14px;
         padding-bottom: 80px;
     }
+    .galeria {
+        display: none;
+    }
     .galeria-mobile {
         width: 75%;
     }
@@ -579,9 +583,6 @@ label[for=suscripcion] {
         height: auto;
         max-height: 350px;
         object-fit: cover;
-    }
-    .carousel {
-        display: none;
     }
     #servicios {
         padding: 60px 0;
@@ -718,7 +719,6 @@ label[for=suscripcion] {
     }
     .promos {
         height: max-content;
-        width: 100%;
         box-sizing: border-box;
         border-top: 1px solid rgb(54, 143, 150);
         border-bottom: 1px solid rgb(54, 143, 150);
@@ -961,7 +961,6 @@ label[for=suscripcion] {
     }
      .promos {
         height: max-content;
-        width: 100%;
         flex-direction: row;
         box-sizing: border-box;
         border-top: 1px solid rgb(54, 143, 150);
@@ -973,7 +972,7 @@ label[for=suscripcion] {
     }
     .promos p, .promos a {
         padding: 20px 10px;
-        font-size: 16px;
+        font-size: 14px;
         text-align: center;
         word-wrap: break-word;
     }
